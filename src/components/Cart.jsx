@@ -4,9 +4,9 @@ import { useParams } from 'react-router-dom'
 const data = [{
     name: 'CR - V',
     type: 'SUV',
-    heart: "./src/images/heart.svg",
-    carImage: "./src/images/car6.svg",
-    fuelIcon: "./src/images/vector.svg",
+    heart: "./images/heart.svg",
+    carImage: "./images/car6.svg",
+    fuelIcon: "./images/vector.svg",
     fuel: '80L',
     transmission: 'Manual',
     people: '6 People',
@@ -16,9 +16,9 @@ const data = [{
 {
     name: 'All New Terios',
     type: 'SUV',
-    heart: "./src/images/heart.svg",
-    carImage: "./src/images/car4.svg",
-    fuelIcon: "./src/images/vector.svg",
+    heart: "./images/heart.svg",
+    carImage: "./images/car4.svg",
+    fuelIcon: "./images/vector.svg",
     fuel: '90L',
     transmission: 'Manual',
     people: '6 People',
@@ -28,9 +28,9 @@ const data = [{
 {
     name: 'New MG ZS',
     type: 'SUV',
-    heart: "./src/images/heart.svg",
-    carImage: "./src/images/car5.svg",
-    fuelIcon: "./src/images/vector.svg",
+    heart: "./images/heart.svg",
+    carImage: "./images/car5.svg",
+    fuelIcon: "./images/vector.svg",
     fuel: '80L',
     transmission: 'Manual',
     people: '6 People',
@@ -40,9 +40,9 @@ const data = [{
 {
     name: 'MG ZX Exclusive',
     type: 'Hatchback',
-    heart: "./src/images/heart.svg",
-    carImage: "./src/images/car6.svg",
-    fuelIcon: "./src/images/vector.svg",
+    heart: "./images/heart.svg",
+    carImage: "./images/car6.svg",
+    fuelIcon: "./images/vector.svg",
     fuel: '70L',
     transmission: 'Manual',
     people: '6 People',
@@ -52,9 +52,9 @@ const data = [{
     , {
     name: 'Koenigsegg',
     type: 'Sport',
-    heart: "./src/images/heart.svg",
-    carImage: "./src/images/car.svg",
-    fuelIcon: "./src/images/vector.svg",
+    heart: "./images/heart.svg",
+    carImage: "./images/car.svg",
+    fuelIcon: "./images/vector.svg",
     fuel: '80L',
     transmission: 'Manual', // corrected 'transmisson' to 'transmission'
     people: '2 People',
@@ -64,9 +64,9 @@ const data = [{
 {
     name: 'Nissan GT - R',
     type: 'Sport',
-    heart: "./src/images/heart.svg",
-    carImage: "./src/images/car2.svg",
-    fuelIcon: "./src/images/vector.svg",
+    heart: "./images/heart.svg",
+    carImage: "./images/car2.svg",
+    fuelIcon: "./images/vector.svg",
     fuel: '90L',
     transmission: 'Manual',
     people: '2 People',
@@ -76,9 +76,9 @@ const data = [{
 {
     name: 'Rolls - Royce',
     type: 'Sedan',
-    heart: "./src/images/heart.svg",
-    carImage: "./src/images/car3.svg",
-    fuelIcon: "./src/images/vector.svg",
+    heart: "./images/heart.svg",
+    carImage: "./images/car3.svg",
+    fuelIcon: "./images/vector.svg",
     fuel: '70L',
     transmission: 'Manual',
     people: '4 People',
@@ -88,9 +88,9 @@ const data = [{
 {
     name: 'All New Rush',
     type: 'SUV',
-    heart: "./src/images/heart.svg",
-    carImage: "./src/images/car4.svg",
-    fuelIcon: "./src/images/vector.svg",
+    heart: "./images/heart.svg",
+    carImage: "./images/car4.svg",
+    fuelIcon: "./images/vector.svg",
     fuel: '70L',
     transmission: 'Manual',
     people: '6 People',
@@ -230,7 +230,7 @@ const Cart = () => {
                                 <h1 className='text-lg font-semibold mt-1.5'>Credit Card</h1>
                             </div>
                             <div>
-                                <img src="./src/images/visa.png" alt=""
+                                <img src="./images/visa.png" alt=""
                                     className='h-10 w-20' />
                             </div>
                         </div>
@@ -265,7 +265,7 @@ const Cart = () => {
                             <h1 className='text-lg font-semibold mt-1'>Paypal</h1>
                         </div>
                         <div>
-                            <img src="./src/images/paypal.png" alt=""
+                            <img src="./images/paypal.png" alt=""
                                 className='h-10 w-20' />
                         </div>
                     </div>
@@ -276,7 +276,7 @@ const Cart = () => {
                             <h1 className='text-lg font-semibold mt-1'>Bitcoin</h1>
                         </div>
                         <div>
-                            <img src="./src/images/bitcoin.png" alt=""
+                            <img src="./images/bitcoin.png" alt=""
                                 className='h-10 w-20' />
                         </div>
                     </div>
@@ -321,11 +321,11 @@ const Cart = () => {
                         <h1 className='font-bold sm:text-xl'>{carInfo.name}</h1>
                         <div className='sm:pt-2'>
                             <div className='flex'>
-                                <img src="./src/images/checkedstar.svg" alt="" />
-                                <img src="./src/images/checkedstar.svg" alt="" />
-                                <img src="./src/images/checkedstar.svg" alt="" />
-                                <img src="./src/images/uncheckedstar.svg" alt="" />
-                                <img src="./src/images/uncheckedstar.svg" alt="" />
+                                <img src="./images/checkedstar.svg" alt="" />
+                                <img src="./images/checkedstar.svg" alt="" />
+                                <img src="./images/checkedstar.svg" alt="" />
+                                <img src="./images/uncheckedstar.svg" alt="" />
+                                <img src="./images/uncheckedstar.svg" alt="" />
                             </div>
                             <p className=' font-semibold opacity-50 sm:pt-2 sm:text-lg'>410+ Reviewer</p>
                         </div>

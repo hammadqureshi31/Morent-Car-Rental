@@ -12,14 +12,14 @@ function Header() {
                 {/* Search bar and filter button - visible on medium screens and larger */}
                 <div className='hidden sm:flex sm:justify-center sm:text-center sm:flex-row gap-5'>
                     <div className='flex justify-evenly gap-5 text-center border-[1px] py-2 px-4 rounded-md'>
-                        <img src="./src/images/searchnormal.svg" alt="" />
+                        <img src="./images/searchnormal.svg" alt="" />
                         <input type="text" name="" id="" placeholder='Search Something here'
                             className='font-semibold w-40 text-sm md:w-96 md:text-lg' />
                     </div>
                     <div className='border-[1px] text-xl rounded-md flex justify-center text-center w-10'
                     onClick={toggleNavbar}>
                         
-                        <img src="./src/images/filter.svg" alt="" className='text-2xl p-2'
+                        <img src="./images/filter.svg" alt="" className='text-2xl p-2'
                         />
                     </div>
                 </div>
@@ -27,30 +27,30 @@ function Header() {
                 {/* Navigation icons - visible on medium screens and larger */}
                 <div className='hidden sm:flex sm:justify-between md:text-end sm:gap-4 md:mt-2 md:ml-20'>
                     <div className='h-10 w-10 flex justify-center items-center rounded-full p-2 border-[1px]'>
-                        <img src="./src/images/vectorh1.svg" alt="" />
+                        <img src="./images/vectorh1.svg" alt="" />
                     </div>
                     <div className='h-10 w-10 flex justify-center items-center rounded-full p-2 border-[1px]'>
-                        <img src="./src/images/vectorh2.svg" alt="" />
+                        <img src="./images/vectorh2.svg" alt="" />
                     </div>
                     <div className='h-10 w-10 flex justify-center items-center rounded-full p-2 border-[1px]'>
-                        <img src="./src/images/vectorh3.svg" alt="" />
+                        <img src="./images/vectorh3.svg" alt="" />
                     </div>
                 </div>
 
                 {/* Image - visible on all screens */}
-                <img src="./src/images/image.svg" alt="" className='w-12 h-12 md:h-14 md:w-14 md:mr-2' />
+                <img src="./images/image.svg" alt="" className='w-12 h-12 md:h-14 md:w-14 md:mr-2' />
             </div>
 
             {/* Search bar and filter button - visible on small screens */}
             <div className='sm:hidden flex justify-between items-center mt-5 gap-3 sm:px-8'>
                 <div className='flex justify-evenly gap-5 text-center border-[1px] py-2 px-4 rounded-md'>
-                    <img src="./src/images/searchnormal.svg" alt="" />
+                    <img src="./images/searchnormal.svg" alt="" />
                     <input type="text" name="" id="" placeholder='Search Something here'
                         className='font-semibold w-40 text-sm' />
                 </div>
                 <div className={'border-[1px] text-xl rounded-md flex justify-center text-center w-10'}
                     onClick={toggleNavbar}>
-                    <img src="./src/images/filter.svg" alt="" className='text-2xl p-2' />
+                    <img src="./images/filter.svg" alt="" className='text-2xl p-2' />
                 </div>
             </div>
         </div>
