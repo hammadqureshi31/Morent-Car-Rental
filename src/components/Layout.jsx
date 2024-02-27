@@ -19,7 +19,7 @@ function Layout() {
                     <CarCards />
                 </div> 
             </div>
-            <div className='bg-[#F6F7F9] sm:px-8 sm:pb-8'>
+            <div className='bg-[#F6F7F9] pb-5 sm:px-8 sm:pb-8 '>
                 <div className='flex justify-between text-center mb-8'>
                     <h1 className='text-xl opacity-30 font-bold sm:mx-8 md:mx-8'>Recommendation Car</h1>
                     <button className='text-[#3563E9] underline font-medium sm:mx-8 md:mx-8'>View All</button>
