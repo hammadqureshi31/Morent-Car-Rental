@@ -4,9 +4,9 @@ import { useParams } from 'react-router-dom'
 const data = [{
     name: 'CR - V',
     type: 'SUV',
-    heart: "./assets/images/heart.svg",
-    carImage: "./assets/images/car 6.svg",
-    fuelIcon: "./assets/images/Vector.svg",
+    heart: "./dist/assets/images/heart.svg",
+    carImage: "./dist/assets/images/car 6.svg",
+    fuelIcon: "./dist/assets/images/Vector.svg",
     fuel: '80L',
     transmission: 'Manual',
     people: '6 People',
@@ -16,9 +16,9 @@ const data = [{
 {
     name: 'All New Terios',
     type: 'SUV',
-    heart: "./assets/images/heart.svg",
-    carImage: "./assets/images/car 4.svg",
-    fuelIcon: "./assets/images/Vector.svg",
+    heart: "./dist/assets/images/heart.svg",
+    carImage: "./dist/assets/images/car 4.svg",
+    fuelIcon: "./dist/assets/images/Vector.svg",
     fuel: '90L',
     transmission: 'Manual',
     people: '6 People',
@@ -28,9 +28,9 @@ const data = [{
 {
     name: 'New MG ZS',
     type: 'SUV',
-    heart: "./assets/images/heart.svg",
-    carImage: "./assets/images/car 5.svg",
-    fuelIcon: "./assets/images/Vector.svg",
+    heart: "./dist/assets/images/heart.svg",
+    carImage: "./dist/assets/images/car 5.svg",
+    fuelIcon: "./dist/assets/images/Vector.svg",
     fuel: '80L',
     transmission: 'Manual',
     people: '6 People',
@@ -40,9 +40,9 @@ const data = [{
 {
     name: 'MG ZX Exclusive',
     type: 'Hatchback',
-    heart: "./assets/images/heart.svg",
-    carImage: "./assets/images/car 6.svg",
-    fuelIcon: "./assets/images/Vector.svg",
+    heart: "./dist/assets/images/heart.svg",
+    carImage: "./dist/assets/images/car 6.svg",
+    fuelIcon: "./dist/assets/images/Vector.svg",
     fuel: '70L',
     transmission: 'Manual',
     people: '6 People',
@@ -52,9 +52,9 @@ const data = [{
     , {
     name: 'Koenigsegg',
     type: 'Sport',
-    heart: "./assets/images/heart.svg",
-    carImage: "./assets/images/car.svg",
-    fuelIcon: "./assets/images/Vector.svg",
+    heart: "./dist/assets/images/heart.svg",
+    carImage: "./dist/assets/images/car.svg",
+    fuelIcon: "./dist/assets/images/Vector.svg",
     fuel: '80L',
     transmission: 'Manual', // corrected 'transmisson' to 'transmission'
     people: '2 People',
@@ -64,9 +64,9 @@ const data = [{
 {
     name: 'Nissan GT - R',
     type: 'Sport',
-    heart: "./assets/images/heart.svg",
-    carImage: "./assets/images/car 2.svg",
-    fuelIcon: "./assets/images/Vector.svg",
+    heart: "./dist/assets/images/heart.svg",
+    carImage: "./dist/assets/images/car 2.svg",
+    fuelIcon: "./dist/assets/images/Vector.svg",
     fuel: '90L',
     transmission: 'Manual',
     people: '2 People',
@@ -76,9 +76,9 @@ const data = [{
 {
     name: 'Rolls - Royce',
     type: 'Sedan',
-    heart: "./assets/images/heart.svg",
-    carImage: "./assets/images/car 3.svg",
-    fuelIcon: "./assets/images/Vector.svg",
+    heart: "./dist/assets/images/heart.svg",
+    carImage: "./dist/assets/images/car 3.svg",
+    fuelIcon: "./dist/assets/images/Vector.svg",
     fuel: '70L',
     transmission: 'Manual',
     people: '4 People',
@@ -88,9 +88,9 @@ const data = [{
 {
     name: 'All New Rush',
     type: 'SUV',
-    heart: "./assets/images/heart.svg",
-    carImage: "./assets/images/car 4.svg",
-    fuelIcon: "./assets/images/Vector.svg",
+    heart: "./dist/assets/images/heart.svg",
+    carImage: "./dist/assets/images/car 4.svg",
+    fuelIcon: "./dist/assets/images/Vector.svg",
     fuel: '70L',
     transmission: 'Manual',
     people: '6 People',
@@ -230,7 +230,7 @@ const Cart = () => {
                                 <h1 className='text-lg font-semibold mt-1.5'>Credit Card</h1>
                             </div>
                             <div>
-                                <img src="./assets/images/visa.png" alt=""
+                                <img src="./dist/assets/images/visa.png" alt=""
                                     className='h-10 w-20' />
                             </div>
                         </div>
@@ -265,7 +265,7 @@ const Cart = () => {
                             <h1 className='text-lg font-semibold mt-1'>Paypal</h1>
                         </div>
                         <div>
-                            <img src="./assets/images/paypal.png" alt=""
+                            <img src="./dist/assets/images/paypal.png" alt=""
                                 className='h-10 w-20' />
                         </div>
                     </div>
@@ -276,7 +276,7 @@ const Cart = () => {
                             <h1 className='text-lg font-semibold mt-1'>Bitcoin</h1>
                         </div>
                         <div>
-                            <img src="./assets/images/bitcoin.png" alt=""
+                            <img src="./dist/assets/images/bitcoin.png" alt=""
                                 className='h-10 w-20' />
                         </div>
                     </div>
@@ -321,11 +321,11 @@ const Cart = () => {
                         <h1 className='font-bold sm:text-xl'>{carInfo.name}</h1>
                         <div className='sm:pt-2'>
                             <div className='flex'>
-                                <img src="./assets/images/checkedstar.svg" alt="" />
-                                <img src="./assets/images/checkedstar.svg" alt="" />
-                                <img src="./assets/images/checkedstar.svg" alt="" />
-                                <img src="./assets/images/uncheckedstar.svg" alt="" />
-                                <img src="./assets/images/uncheckedstar.svg" alt="" />
+                                <img src="./dist/assets/images/checkedstar.svg" alt="" />
+                                <img src="./dist/assets/images/checkedstar.svg" alt="" />
+                                <img src="./dist/assets/images/checkedstar.svg" alt="" />
+                                <img src="./dist/assets/images/uncheckedstar.svg" alt="" />
+                                <img src="./dist/assets/images/uncheckedstar.svg" alt="" />
                             </div>
                             <p className=' font-semibold opacity-50 sm:pt-2 sm:text-lg'>410+ Reviewer</p>
                         </div>

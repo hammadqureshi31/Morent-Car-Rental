@@ -6,9 +6,9 @@ import { Link, useNavigate } from 'react-router-dom';
 const data = [{
   name: 'Koenigsegg',
   type: 'Sport',
-  heart: "./assets/images/heart.svg",
-  carImage: "./assets/images/car.svg",
-  fuelIcon: "./assets/images/Vector.svg",
+  heart: "./dist/assets/images/heart.svg",
+  carImage: "./dist/assets/images/car.svg",
+  fuelIcon: "./dist/assets/images/Vector.svg",
   fuel: '80L',
   transmission: 'Manual', // corrected 'transmisson' to 'transmission'
   people: '2 People',
@@ -18,9 +18,9 @@ const data = [{
 {
   name: 'Nissan GT - R',
   type: 'Sport',
-  heart: "./assets/images/heart.svg",
-  carImage: "./assets/images/car 2.svg",
-  fuelIcon: "./assets/images/Vector.svg",
+  heart: "./dist/assets/images/heart.svg",
+  carImage: "./dist/assets/images/car 2.svg",
+  fuelIcon: "./dist/assets/images/Vector.svg",
   fuel: '90L',
   transmission: 'Manual',
   people: '2 People',
@@ -30,9 +30,9 @@ const data = [{
 {
   name: 'Rolls - Royce',
   type: 'Sedan',
-  heart: "./assets/images/heart.svg",
-  carImage: "./assets/images/car 3.svg",
-  fuelIcon: "./assets/images/Vector.svg",
+  heart: "./dist/assets/images/heart.svg",
+  carImage: "./dist/assets/images/car 3.svg",
+  fuelIcon: "./dist/assets/images/Vector.svg",
   fuel: '70L',
   transmission: 'Manual',
   people: '4 People',
@@ -42,9 +42,9 @@ const data = [{
 {
   name: 'All New Rush',
   type: 'SUV',
-  heart: "./assets/images/heart.svg",
-  carImage: "./assets/images/car 4.svg",
-  fuelIcon: "./assets/images/Vector.svg",
+  heart: "./dist/assets/images/heart.svg",
+  carImage: "./dist/assets/images/car 4.svg",
+  fuelIcon: "./dist/assets/images/Vector.svg",
   fuel: '70L',
   transmission: 'Manual',
   people: '6 People',
@@ -81,7 +81,7 @@ function CarCards() {
             <img className='mb-5' src={item.heart} alt="" />
           </div>
           <div>
-            <img className='ml-4' src={item.carImage} alt="" />
+            <img className='ml-4 ' src={item.carImage} alt="" />
           </div>
           <div className='flex justify-between text-center gap-2'>
             <div className='flex text-center justify-between gap-1'>
