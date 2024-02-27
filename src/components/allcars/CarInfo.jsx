@@ -6,9 +6,9 @@ import { GoChevronDown } from "react-icons/go";
 const data = [{
   name: 'Koenigsegg',
   type: 'Sport',
-  heart: "./src/assets/images/heart.svg",
-  carImage: "./src/assets/images/car.svg",
-  fuelIcon: "./src/assets/images/Vector.svg",
+  heart: "./public/assets/images/heart.svg",
+  carImage: "./public/assets/images/car.svg",
+  fuelIcon: "./public/assets/images/Vector.svg",
   fuel: '80L',
   transmission: 'Manual', // corrected 'transmisson' to 'transmission'
   people: '2 People',
@@ -18,9 +18,9 @@ const data = [{
 {
   name: 'Nissan GT - R',
   type: 'Sport',
-  heart: "./src/assets/images/heart.svg",
-  carImage: "./src/assets/images/car 2.svg",
-  fuelIcon: "./src/assets/images/Vector.svg",
+  heart: "./public/assets/images/heart.svg",
+  carImage: "./public/assets/images/car 2.svg",
+  fuelIcon: "./public/assets/images/Vector.svg",
   fuel: '90L',
   transmission: 'Manual',
   people: '2 People',
@@ -30,9 +30,9 @@ const data = [{
 {
   name: 'Rolls - Royce',
   type: 'Sedan',
-  heart: "./src/assets/images/heart.svg",
-  carImage: "./src/assets/images/car 3.svg",
-  fuelIcon: "./src/assets/images/Vector.svg",
+  heart: "./public/assets/images/heart.svg",
+  carImage: "./public/assets/images/car 3.svg",
+  fuelIcon: "./public/assets/images/Vector.svg",
   fuel: '70L',
   transmission: 'Manual',
   people: '4 People',
@@ -42,9 +42,9 @@ const data = [{
 {
   name: 'All New Rush',
   type: 'SUV',
-  heart: "./src/assets/images/heart.svg",
-  carImage: "./src/assets/images/car 4.svg",
-  fuelIcon: "./src/assets/images/Vector.svg",
+  heart: "./public/assets/images/heart.svg",
+  carImage: "./public/assets/images/car 4.svg",
+  fuelIcon: "./public/assets/images/Vector.svg",
   fuel: '70L',
   transmission: 'Manual',
   people: '6 People',
@@ -56,9 +56,9 @@ const data = [{
 const carData = [{
   name: 'Koenigsegg',
   type: 'Sport',
-  heart: "./src/assets/images/heart.svg",
-  carImage: "./src/assets/images/car.svg",
-  fuelIcon: "./src/assets/images/Vector.svg",
+  heart: "./public/assets/images/heart.svg",
+  carImage: "./public/assets/images/car.svg",
+  fuelIcon: "./public/assets/images/Vector.svg",
   fuel: '80L',
   transmission: 'Manual', // corrected 'transmisson' to 'transmission'
   people: '2 People',
@@ -68,9 +68,9 @@ const carData = [{
 {
   name: 'Nissan GT - R',
   type: 'Sport',
-  heart: "./src/assets/images/heart.svg",
-  carImage: "./src/assets/images/car 2.svg",
-  fuelIcon: "./src/assets/images/Vector.svg",
+  heart: "./public/assets/images/heart.svg",
+  carImage: "./public/assets/images/car 2.svg",
+  fuelIcon: "./public/assets/images/Vector.svg",
   fuel: '90L',
   transmission: 'Manual',
   people: '2 People',
@@ -80,9 +80,9 @@ const carData = [{
 {
   name: 'Rolls - Royce',
   type: 'Sedan',
-  heart: "./src/assets/images/heart.svg",
-  carImage: "./src/assets/images/car 3.svg",
-  fuelIcon: "./src/assets/images/Vector.svg",
+  heart: "./public/assets/images/heart.svg",
+  carImage: "./public/assets/images/car 3.svg",
+  fuelIcon: "./public/assets/images/Vector.svg",
   fuel: '70L',
   transmission: 'Manual',
   people: '4 People',
@@ -92,9 +92,9 @@ const carData = [{
 {
   name: 'All New Rush',
   type: 'SUV',
-  heart: "./src/assets/images/heart.svg",
-  carImage: "./src/assets/images/car 4.svg",
-  fuelIcon: "./src/assets/images/Vector.svg",
+  heart: "./public/assets/images/heart.svg",
+  carImage: "./public/assets/images/car 4.svg",
+  fuelIcon: "./public/assets/images/Vector.svg",
   fuel: '70L',
   transmission: 'Manual',
   people: '6 People',
@@ -104,9 +104,9 @@ const carData = [{
 {
   name: 'CR - V',
   type: 'SUV',
-  heart: "./src/assets/images/heart.svg",
-  carImage: "./src/assets/images/car 6.svg",
-  fuelIcon: "./src/assets/images/Vector.svg",
+  heart: "./public/assets/images/heart.svg",
+  carImage: "./public/assets/images/car 6.svg",
+  fuelIcon: "./public/assets/images/Vector.svg",
   fuel: '80L',
   transmission: 'Manual',
   people: '6 People',
@@ -116,9 +116,9 @@ const carData = [{
 {
   name: 'All New Terios',
   type: 'SUV',
-  heart: "./src/assets/images/heart.svg",
-  carImage: "./src/assets/images/car 4.svg",
-  fuelIcon: "./src/assets/images/Vector.svg",
+  heart: "./public/assets/images/heart.svg",
+  carImage: "./public/assets/images/car 4.svg",
+  fuelIcon: "./public/assets/images/Vector.svg",
   fuel: '90L',
   transmission: 'Manual',
   people: '6 People',
@@ -128,9 +128,9 @@ const carData = [{
 {
   name: 'New MG ZS',
   type: 'SUV',
-  heart: "./src/assets/images/heart.svg",
-  carImage: "./src/assets/images/car 5.svg",
-  fuelIcon: "./src/assets/images/Vector.svg",
+  heart: "./public/assets/images/heart.svg",
+  carImage: "./public/assets/images/car 5.svg",
+  fuelIcon: "./public/assets/images/Vector.svg",
   fuel: '80L',
   transmission: 'Manual',
   people: '6 People',
@@ -140,9 +140,9 @@ const carData = [{
 {
   name: 'MG ZX Exclusive',
   type: 'Hatchback',
-  heart: "./src/assets/images/heart.svg",
-  carImage: "./src/assets/images/car 6.svg",
-  fuelIcon: "./src/assets/images/Vector.svg",
+  heart: "./public/assets/images/heart.svg",
+  carImage: "./public/assets/images/car 6.svg",
+  fuelIcon: "./public/assets/images/Vector.svg",
   fuel: '70L',
   transmission: 'Manual',
   people: '6 People',
@@ -180,20 +180,20 @@ const CarInfo = () => {
               <h6 className='text-white text-left font-thin text-sm tracking-tight opacity-75 pt-2 w-48 sm:text-md sm:pb-4
               '
               >Safety and comfort while driving a futuristic and elegant sports car</h6>
-              <img src="./src/assets/images/car 2.svg" alt="" className='mt-3 ml-6 sm:w-72 sm:ml-0' />
+              <img src="./public/assets/images/car 2.svg" alt="" className='mt-3 ml-6 sm:w-72 sm:ml-0' />
             </div>
             <div className='flex justify-between text-center gap-3'>
               <div className='bg-[#3563E9] rounded-lg p-1 w-36'>
                 <p className='text-white text-left text-bold text-[8px] tracking-tighter'>Sports car with the best design</p>
                 <p className='text-white text-left font-thin text-[8px] tracking-tigher opacity-75 '
                 >Safety and comfort while driving</p>
-                <img src="./src/assets/images/car 2.svg" alt="" className='h-5 w-35' />
+                <img src="./public/assets/images/car 2.svg" alt="" className='h-5 w-35' />
               </div>
               <div>
-                <img src="./src/assets/images/view 2.svg" alt="" />
+                <img src="./public/assets/images/view 2.svg" alt="" />
               </div>
               <div>
-                <img src="./src/assets/images/view 3.svg" alt="" />
+                <img src="./public/assets/images/view 3.svg" alt="" />
               </div>
             </div>
           </div>
@@ -204,14 +204,14 @@ const CarInfo = () => {
             <div>
               <div className='flex justify-between text-left'>
                 <h1 className='text-lg font-bold '>{carInfo.name}</h1>
-                <img src="./src/assets/images/heart.svg" alt="" />
+                <img src="./public/assets/images/heart.svg" alt="" />
               </div>
               <div className='flex gap-0.5 text-left'>
-                <img src="./src/assets/images/checkedstar.svg" alt="" />
-                <img src="./src/assets/images/checkedstar.svg" alt="" />
-                <img src="./src/assets/images/checkedstar.svg" alt="" />
-                <img src="./src/assets/images/uncheckedstar.svg" alt="" />
-                <img src="./src/assets/images/uncheckedstar.svg" alt="" />
+                <img src="./public/assets/images/checkedstar.svg" alt="" />
+                <img src="./public/assets/images/checkedstar.svg" alt="" />
+                <img src="./public/assets/images/checkedstar.svg" alt="" />
+                <img src="./public/assets/images/uncheckedstar.svg" alt="" />
+                <img src="./public/assets/images/uncheckedstar.svg" alt="" />
                 <h1 className='pl-2 font-semibold opacity-45'>440+ Reviewer</h1>
               </div>
             </div>
@@ -243,7 +243,7 @@ const CarInfo = () => {
           </div>
 
           <div className='flex justify-start text-center gap-3 mt-8'>
-            <div><img src="./src/assets/images/Image.svg" alt="" /></div>
+            <div><img src="./public/assets/images/Image.svg" alt="" /></div>
             <div>
               <h1 className='text-sm font-bold pt-2'>Alex Stanton</h1>
               <p className='text-[11px]'>CEO at Bukalapak</p>
@@ -251,11 +251,11 @@ const CarInfo = () => {
             <div>
               <p className='text-sm tracking-tight opacity-45'>21 Feb 2024</p>
               <div className='flex justify-start text-center text-sm'>
-                <img src="./src/assets/images/checkedstar.svg" alt="" />
-                <img src="./src/assets/images/checkedstar.svg" alt="" />
-                <img src="./src/assets/images/checkedstar.svg" alt="" />
-                <img src="./src/assets/images/checkedstar.svg" alt="" />
-                <img src="./src/assets/images/uncheckedstar.svg" alt="" />
+                <img src="./public/assets/images/checkedstar.svg" alt="" />
+                <img src="./public/assets/images/checkedstar.svg" alt="" />
+                <img src="./public/assets/images/checkedstar.svg" alt="" />
+                <img src="./public/assets/images/checkedstar.svg" alt="" />
+                <img src="./public/assets/images/uncheckedstar.svg" alt="" />
               </div>
             </div>
           </div>
@@ -264,7 +264,7 @@ const CarInfo = () => {
           </div>
 
           <div className='flex justify-start text-center gap-3 mt-8'>
-            <div><img src="./src/assets/images/Profill.svg" alt="" /></div>
+            <div><img src="./public/assets/images/Profill.svg" alt="" /></div>
             <div>
               <h1 className='text-sm font-bold pt-2'>Alex Stanton</h1>
               <p className='text-[11px]'>CEO at Bukalapak</p>
@@ -272,11 +272,11 @@ const CarInfo = () => {
             <div>
               <p className='text-sm tracking-tight opacity-45'>21 Feb 2024</p>
               <div className='flex justify-start text-center text-sm'>
-                <img src="./src/assets/images/checkedstar.svg" alt="" />
-                <img src="./src/assets/images/checkedstar.svg" alt="" />
-                <img src="./src/assets/images/checkedstar.svg" alt="" />
-                <img src="./src/assets/images/checkedstar.svg" alt="" />
-                <img src="./src/assets/images/uncheckedstar.svg" alt="" />
+                <img src="./public/assets/images/checkedstar.svg" alt="" />
+                <img src="./public/assets/images/checkedstar.svg" alt="" />
+                <img src="./public/assets/images/checkedstar.svg" alt="" />
+                <img src="./public/assets/images/checkedstar.svg" alt="" />
+                <img src="./public/assets/images/uncheckedstar.svg" alt="" />
               </div>
             </div>
           </div>

@@ -18,7 +18,7 @@ function Home() {
                             tracking-tighter md:text-md md:font-medium md:tracking-normal'>Rental Car</button>
                         </div>
                     </div>
-                    <img src="./src/assets/images/image 7.svg" alt="" className='size-48 absolute top-1/3 ml-20 pr-2
+                    <img src="./public/assets/images/image 7.svg" alt="" className='size-48 absolute top-1/3 ml-20 pr-2
                     sm:ml-48 sm:top-[100px] sm:w-80 sm:h-44 md:size-96 md:top-14 md:ml-32' />
                 </div>
 
@@ -34,7 +34,7 @@ function Home() {
                              tracking-tighter md:text-md md:font-medium md:tracking-normal'>Rental Car</button>
                         </div>
                     </div>
-                    <img src="./src/assets/images/car 2.svg" alt="" className='size-48 absolute top-1/3 ml-20 pr-2
+                    <img src="./public/assets/images/car 2.svg" alt="" className='size-48 absolute top-1/3 ml-20 pr-2
                     sm:ml-48 sm:top-[100px] sm:w-80 sm:h-44 md:size-80 md:top-20 md:ml-36 max-sm:ml-24' />
                 </div>
             </div>
