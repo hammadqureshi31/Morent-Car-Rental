@@ -71,7 +71,7 @@ function CarCards() {
     >
       {myData.map((item, idx) => (
 
-        <div key={idx} className='bg-white flex flex-col gap-6 p-3 rounded-md sm:w-60 md:w-72'
+        <div key={idx} className='bg-white flex flex-col gap-6 p-3 rounded-md sm:w-60 md:w-72 2xl:w-80'
           onClick={() => { handleClick(item) }}>
           <div className='flex justify-between text-center'>
             <div>

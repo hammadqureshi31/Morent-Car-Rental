@@ -34,12 +34,12 @@ function Home() {
                              tracking-tighter md:text-md md:font-medium md:tracking-normal'>Rental Car</button>
                         </div>
                     </div>
-                    <img src="./images/car2.svg" alt="" className='size-48 absolute top-1/3 ml-20 pr-2
+                    <img src="./images/car2.svg" alt="" className='size-44 absolute top-1/3 ml-20 pr-2
                     sm:ml-48 sm:top-[100px] sm:w-80 sm:h-44 md:size-80 md:top-20 md:ml-36 max-sm:ml-24' />
                 </div>
             </div>
 
-            <div className='flex flex-col gap-10 md:flex-row md:text-center md:justify-center md:gap-24'>
+            <div className='flex flex-col gap-10 md:flex-row md:text-center md:justify-center md:gap-12 md:px-8 lg:gap-24'>
 
                 <div className='bg-white p-4 w-full md:w-[540px] md:rounded-md'>
                     <div className='flex justify-left text-left gap-2'>
@@ -73,7 +73,7 @@ function Home() {
                 </div>
 
                 <div className='bg-[#3563E9] h-14 w-14 flex justify-center text-center rounded-md absolute left-36 
-                mt-32 sm:left-72 md:top-[350px] md:left-[650px]'>
+                mt-32 sm:left-72 md:top-[350px] md:left-[650px] 2xl:ml-28'>
                     <button className='text-white flex justify-center text-center text-2xl mt-4'><IoSwapVertical /></button>
                 </div>
 

@@ -171,23 +171,23 @@ const CarInfo = () => {
 
   return (
     <>
-      <div className='bg-[#F6F7F9] flex justify-between text-center flex-col p-3 md:w-[949px]
-      lg:w-[1200px] xl:w-[1348px]'>
+      <div className='bg-[#F6F7F9] flex justify-between text-center flex-col p-3 md:w-screen
+      lg:w-screen xl:w-screen 2xl:w-screen'>
         <div className='sm:flex md:px-20 md:gap-12 md:w-auto'>
           <div className='flex justify-between text-center flex-col gap-4 mt-4 '>
             <div className='bg-[#3563E9] h-52 rounded-2xl p-4 sm:h-72 sm:w-72 md:w-96'>
               <h1 className='text-white text-left text-bold text-xl sm:text-2xl sm:pb-4'>Sports car with the best design and acceleration</h1>
-              <h6 className='text-white text-left font-thin text-sm tracking-tight opacity-75 pt-2 w-48 sm:text-md sm:pb-4
+              <h6 className='text-white text-left font-thin text-sm tracking-tight opacity-75 pt-2 w-48 sm:text-lg sm:pb-4 sm:w-60
               '
               >Safety and comfort while driving a futuristic and elegant sports car</h6>
               <img src="./images/car2.svg" alt="" className='mt-3 ml-6 sm:w-72 sm:ml-0' />
             </div>
-            <div className='flex justify-between text-center gap-3'>
-              <div className='bg-[#3563E9] rounded-lg p-1 w-36'>
+            <div className='flex justify-between text-center gap-3 '>
+              <div className='bg-[#3563E9] rounded-lg p-2 w-36'>
                 <p className='text-white text-left text-bold text-[8px] tracking-tighter'>Sports car with the best design</p>
                 <p className='text-white text-left font-thin text-[8px] tracking-tigher opacity-75 '
                 >Safety and comfort while driving</p>
-                <img src="./images/car2.svg" alt="" className='h-5 w-35' />
+                <img src="./images/car2.svg" alt="" className='sm:mt-2' />
               </div>
               <div>
                 <img src="./images/view2.svg" alt="" />
@@ -243,7 +243,7 @@ const CarInfo = () => {
           </div>
 
           <div className='flex justify-start text-center gap-3 mt-8'>
-            <div><img src="./images/Image.svg" alt="" /></div>
+            <div><img src="./images/image.svg" alt="" /></div>
             <div>
               <h1 className='text-sm font-bold pt-2'>Alex Stanton</h1>
               <p className='text-[11px]'>CEO at Bukalapak</p>
@@ -264,7 +264,7 @@ const CarInfo = () => {
           </div>
 
           <div className='flex justify-start text-center gap-3 mt-8'>
-            <div><img src="./images/Profill.svg" alt="" /></div>
+            <div><img src="./images/profill.svg" alt="" /></div>
             <div>
               <h1 className='text-sm font-bold pt-2'>Alex Stanton</h1>
               <p className='text-[11px]'>CEO at Bukalapak</p>
@@ -291,7 +291,7 @@ const CarInfo = () => {
 
 
 
-        <div className='bg-[#F6F7F9] mt-8'>
+        <div className='bg-[#F6F7F9] mt-8 p-2 mb-20'>
           <div className='flex justify-between text-center mb-8'>
             <h1 className='text-xl opacity-30 font-bold md:mx-8'>Recommendation Car</h1>
             <button className='text-[#3563E9] underline font-medium'>View All</button>

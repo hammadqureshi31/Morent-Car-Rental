@@ -112,7 +112,7 @@ const Cart = () => {
 
 
     return (
-        <div className='bg-[#F6F7F9] p-5 flex text-left flex-col-reverse gap-10 sm:flex-row sm:px-8'>
+        <div className='bg-[#F6F7F9] p-5 flex text-left flex-col-reverse gap-10 sm:flex-row sm:px-8 2xl:pl-28'>
             <div className='flex justify-between text-left flex-col gap-10 '>
                 {/* Billing Info */}
                 <div className='bg-white flex flex-col gap-8 p-4 rounded-lg pb-3'>

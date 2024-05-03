@@ -152,7 +152,7 @@ function AllCars() {
             <div className='md:flex md:justify-left md:text-center md:flex-col'>
                 <div className=' max-w-full'>
                     <div className='bg-[#F6F7F9] p-4 flex justify-between text-center flex-col gap-4'>
-                        <div className='flex flex-col gap-10 md:flex-row md:text-center md:justify-center md:gap-24'>
+                        <div className='flex flex-col gap-10 md:flex-row md:text-center md:justify-center '>
 
                             <div className='bg-white p-4 w-full md:w-[540px] md:rounded-md'>
                                 <div className='flex justify-left text-left gap-2'>
@@ -185,8 +185,7 @@ function AllCars() {
                                 </div>
                             </div>
 
-                            <div className='bg-[#3563E9] h-14 w-14 flex justify-center text-center rounded-md absolute left-36 
-                             mt-32 sm:left-80 md:top-[20px] md:left-[650px]'>
+                            <div className='bg-[#3563E9] h-14 w-14 mx-32 flex justify-center text-center sm:mx-72 rounded-md md:mt-9 md:mx-0'>
                                 <button className='text-white flex justify-center text-center text-2xl mt-4'><IoSwapVertical /></button>
                             </div>
 
@@ -225,7 +224,7 @@ function AllCars() {
                         </div>
                     </div>
 
-                    <div className='bg-[#F6F7F9] md:pt-6' id='allcars'>
+                    <div className='bg-[#F6F7F9] p-4 pb-20 md:pt-6 2xl:p-8 2xl:px-14' id='allcars'>
                         <Recomendations />
                         <div className='flex justify-evenly text-center mt-10 md:pb-14'>
                             <div><button className='text-white bg-[#3563E9] text-lg font-semibold p-2 
@@ -327,7 +326,7 @@ function AllCars() {
 
                 {isNavbarOpen &&
                     <div className={`flex text-center flex-col absolute h-full w-44 bg-white
-             top-40 -translate-y-3  pl-8 pt-8 md:w-80  md:top-24 md:ml-8 md:pt-20 md:h-[1050px]`}>
+             top-40 -translate-y-3  pl-8 pt-8 sm:top-20 md:w-80  md:top-24 md:ml-12 md:pt-10 md:h-[1050px]`}>
                         <div className='flex flex-col gap-12'>
                             <div className='flex text-left flex-col gap-4'>
                                 <h1 className='text-xl font-semibold opacity-40'>TYPE</h1>

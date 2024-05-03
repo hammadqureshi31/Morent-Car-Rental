@@ -115,7 +115,7 @@ function Recomendations() {
         <div className='flex flex-col gap-8 sm:flex-wrap sm:flex-row md:flex-row md:flex-wrap md:justify-center md:gap-8'>
             {myData.map((item, idx) => (
                 <div onClick={() => { navigate(`/${item.id}`) }} key={idx}
-                    className='bg-white flex flex-col gap-6 p-3 rounded-md sm:w-60 md:w-72 md:mb-6'>
+                    className='bg-white flex flex-col gap-6 p-3 rounded-md sm:w-60 md:w-72 md:mb-6 2xl:w-80'>
                     <div className='flex justify-between text-center'>
                         <div>
                             <h1 className='font-bold text-lg tracking-wide'>{item.name}</h1>
